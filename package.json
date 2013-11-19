@@ -1,0 +1,34 @@
+{
+  "author": "psirenny <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/neigh/issues"
+  },
+  "dependencies": {
+    "locale": "*"
+  },
+  "description": "A translation library for Derby JS.",
+  "keywords": [
+    "derby",
+    "gettext",
+    "i18n",
+    "i10n",
+    "internationalization",
+    "language",
+    "locale",
+    "localization",
+    "messageformat",
+    "translation"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "derby-neigh",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psirenny/neigh.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.0"
+}
