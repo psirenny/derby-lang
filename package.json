@@ -1,10 +1,13 @@
 {
   "author": "psirenny <djtorres0@gmail.com>",
   "bugs": {
-    "url": "https://github.com/psirenny/neigh/issues"
+    "url": "https://github.com/psirenny/derby-lang/issues"
   },
   "dependencies": {
-    "locale": "*"
+    "findit": "*",
+    "lodash": "*",
+    "messageformat": "*",
+    "traverse": "*"
   },
   "description": "A translation library for Derby JS.",
   "keywords": [
@@ -21,11 +24,11 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "neigh",
+  "name": "derby-lang",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git://github.com/psirenny/neigh.git"
+    "url": "git://github.com/psirenny/derby-lang.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
