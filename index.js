@@ -1,13 +1,15 @@
 var _ = require('lodash')
   , compiler = require('./lib/compiler')
+  , loader = require('./lib/loader')
   , memoryCache = require('memory-cache')
   , views = require('./lib/views');
 
 module.exports = function (app, options) {
   options = _.defaults(options || {}, {
-    cache: {expiration: 0}
+    cache: {expiration: 0},
   });
 
+  if (!options.load) options.load = loader.filesystem(options);
   views.create(app, options);
 
   function getTranslations(callback) {
