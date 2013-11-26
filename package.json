@@ -6,6 +6,7 @@
   "dependencies": {
     "findit": "*",
     "lodash": "*",
+    "memory-cache": "*",
     "messageformat": "*",
     "traverse": "*"
   },
