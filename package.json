@@ -12,7 +12,6 @@
   "description": "A translation library for Derby JS.",
   "keywords": [
     "derby",
-    "gettext",
     "i18n",
     "i10n",
     "internationalization",
