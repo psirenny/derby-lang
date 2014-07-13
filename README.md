@@ -2,8 +2,9 @@ Derby Lang
 ==========
 
 A translation library for [Derby JS](http://derbyjs.com).
-It uses [messageformat.js](https://github.com/SlexAxton/messageformat.js) rather than gettext.
-Refer to messageformat.js for the advantages of using messageformat and how to format translation strings.
+It uses messageformat rather than gettext.
+Refer to [messageformat.js](https://github.com/SlexAxton/messageformat.js)
+for the advantages of using messageformat and how to format translation strings.
 
 Installation
 ------------
@@ -50,16 +51,16 @@ In your view:
 
     <p>{{t($lang.dict, 'en', ['Hello World.'])}}</p>
 
-Locale
-------
+Locales
+-------
 
 It's up to you to manage what locale to display.
 You can use [derby-locale](https://github.com/psirenny/derby-locale)
 to automatically select the best locale for a user given the ones you support, their browser preference, etc.
 
-Dictionary
-----------
+Dictionaries
+------------
 
 A dictionary is just an object with translation strings.
-It may be stored in the database rather than set during a middleware route.
-You could subscribe to a dictionary and use ShareJS views to return only the languages the user will see.
+It can be stored in the database rather than set during a middleware route.
+You could subscribe to a dictionary and use ShareJS views to return only relevant languages.
