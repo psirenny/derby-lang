@@ -4,11 +4,9 @@
     "url": "https://github.com/psirenny/derby-lang/issues"
   },
   "dependencies": {
-    "findit": "*",
-    "lodash": "*",
-    "memory-cache": "*",
-    "messageformat": "*",
-    "traverse": "*"
+    "findit": "^2.0.0",
+    "messageformat": "^0.1.8",
+    "traverse": "^0.6.6"
   },
   "description": "A translation library for Derby JS.",
   "keywords": [
