@@ -31,7 +31,8 @@ Add a dictionary:
       var model = req.getModel();
       model.set('$lang.dict', {
         en: {'Hello world.': 'Hello world.'},
-        es: {'Hello world.': 'Hola mundo.'}
+        es: {'Hello world.': 'Hola mundo.'},
+        zh: {'copyright': '© {year}'}
       });
       next();
     });
@@ -49,7 +50,8 @@ In your view functions:
 
 In your view:
 
-    <p>{{t($lang.dict, 'en', ['Hello World.'])}}</p>
+    <p>{{t($lang.dict, 'en', ['Hello world.'])}}</p>
+    <p>{{t($lang.dict, 'zh', ['copyright.'], {year: 2014})}}</p>
 
 Locales
 -------
