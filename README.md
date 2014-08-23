@@ -29,7 +29,7 @@ Add a dictionary:
     // ..
     .use(function (req, res, next) {
       var model = req.getModel();
-      model.set('$lang.dict', {
+      model.set('$lang.dict.strings', {
         en: {'Hello world.': 'Hello world.'},
         es: {'Hello world.': 'Hola mundo.'},
         zh: {'copyright': '© {year}'}
