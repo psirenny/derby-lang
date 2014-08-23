@@ -1,10 +1,10 @@
 Derby Lang
 ==========
 
-A translation library for [Derby JS](http://derbyjs.com).
-It uses messageformat rather than gettext.
-Refer to [messageformat.js](https://github.com/SlexAxton/messageformat.js)
-for the advantages of using messageformat and how to format translation strings.
+A translation library for [Derby JS](http://derbyjs.com) that uses [messageformat.js](https://github.com/SlexAxton/messageformat.js).
+Refer to the messageformat.js on how to format translation strings.
+
+[![Build Status](https://travis-ci.org/psirenny/derby-lang.png?branch=master)](https://travis-ci.org/psirenny/derby-lang)
 
 Installation
 ------------
