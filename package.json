@@ -9,6 +9,10 @@
     "traverse": "^0.6.6"
   },
   "description": "A translation library for Derby JS.",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  },
   "keywords": [
     "derby",
     "i18n",
@@ -29,7 +33,7 @@
     "url": "git://github.com/psirenny/derby-lang.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha test"
   },
   "version": "0.4.0"
 }
