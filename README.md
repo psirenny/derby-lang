@@ -1,7 +1,7 @@
 Derby Lang
 ==========
 
-A translation library for [Derby JS](http://derbyjs.com) that uses [messageformat.js](https://github.com/SlexAxton/messageformat.js).
+A translation library for [Derby JS](http://derbyjs.com) that uses [messageformat.js](https://github.com/SlexAxton/messageformat.js).  
 Refer to the messageformat.js on how to format translation strings.
 
 [![Build Status](https://travis-ci.org/psirenny/derby-lang.png?branch=master)](https://travis-ci.org/psirenny/derby-lang)
