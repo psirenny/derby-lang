@@ -18,8 +18,10 @@ describe('derby-lang', function () {
   });
 
   describe('server', function () {
-    it('should be a function', function () {
-      lib.server.should.be.an('function');
+    describe('middleware', function () {
+      it('should be a function', function () {
+        lib.server.should.be.an('function');
+      });
     });
 
     describe('load', function () {
