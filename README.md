@@ -32,7 +32,8 @@ Add a dictionary:
       model.set('$lang.dict.strings', {
         en: {'Hello world.': 'Hello world.'},
         es: {'Hello world.': 'Hola mundo.'},
-        zh: {'copyright': '© {year}'}
+        fr: {'copyright': '© {year}'},
+        it: {'foo': {'bar': 'baz'}}
       });
       next();
     });
@@ -50,8 +51,9 @@ In your view functions:
 
 In your view:
 
-    <p>{{t($lang.dict, 'en', ['Hello world.'])}}</p>
-    <p>{{t($lang.dict, 'zh', ['copyright.'], {year: 2014})}}</p>
+    <p>{{t($lang.dict, 'en', 'Hello world.')}}</p>
+    <p>{{t($lang.dict, 'fr', 'copyright.', {year: 2014})}}</p>
+    <p>{{t($lang.dict, 'it', ['foo', 'bar'])}}
 
 Locales
 -------
